@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.header {
+  display: flex;
+  height: 70px;
+  color: $main;
+
+  .left {
+    flex: 1;
+    /* background-color: #fff; */
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .right {
+    font-size: 20px;
+    flex: 2;
+    // background-color: #000;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
